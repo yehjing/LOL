@@ -1,0 +1,712 @@
+@font-face{
+	font-family:myfont1 ;
+	src: url(../images/BeaufortforLOL-Regular.woff) ;
+}
+@font-face{
+	font-family:myfont2 ;
+	src: url(../images/NotoSansTC-Regular.woff2) ;
+}
+
+*{
+	margin:0 ;
+	padding:0 ;
+	font-family:myfont1, myfont2 ;
+}
+body{
+	background-color:#CC25BC ;
+	width:100% ;
+	font-family:"微軟正黑體", Arial ;
+}
+#wrap{
+	width:100% ;
+	max-width:1920px ;
+	background-color:#475D7B ;
+	margin:0 auto ;
+	padding-top:86px ;
+}
+ul{
+	list-style-type:none ;
+}
+a{
+	text-decoration:none ;
+}
+h2{
+	font-size:40px ;
+	font-weight:500 ;
+}
+/*--------------header------------------------------------------------------------*/
+
+header{
+	background:url(../images/linelineline.jpg) no-repeat center center ;
+	width:100% ;
+	max-width:1920px ;
+	height:87px ;
+	margin:0 auto ;
+	position:fixed ;
+	z-index:50 ;
+	top:0 ;
+}
+nav{
+	margin-left:-40px ;
+}
+nav ul{
+	text-align:center ;
+}
+nav ul li{
+	display:inline-block ;
+}
+nav ul li a{
+	display:block ;
+	color:#dfcea2 ;
+	font-size:24px ;
+	font-weight:300 ;
+	border-right:1px solid #dfcea2 ;
+	padding:0px 40px ;
+	margin-top:20px ;
+	letter-spacing:1px ;
+}
+nav ul li a.last_menu{
+	border-right:none ;
+	padding-right:48px ;
+	padding-left:70px ;
+}
+.btn_right_fix{
+	width:110px ;
+	height:210px ;
+	position: fixed ;
+	right:10px ;
+	bottom:10px ;
+}
+.btn_teach{
+	background-color:#000 ;
+	width:84px ;
+	height:84px ;
+	margin:10px ;
+	border:3px solid #bd9e5e ;
+	border-radius:50% ;
+}
+.btn_teach a{
+	display:block ;
+	text-align:center ;
+	padding:14px ;
+	font-size:18px ;
+	font-weight:400 ;
+	color:#9f9b8d ;
+}
+/*--------------sign--------------------------------------------------------------*/
+
+#sign{
+	background:url(../images/ez-6fd288acb373d110efd3c088d4cfe8d5.png), url(../images/bg-1769f4b8b1552fd36a9a6409e89400e9.jpg) no-repeat 0 0 ;
+	width:100% ;
+	max-width:1920px ;
+	height:1940px ;
+	margin:0 auto ;
+	overflow:hidden ;
+}
+
+#logo{
+	/*background-color:rgba(215,72,74,.4) ;*/
+	width:980px ;
+	height:1200px ;
+	margin:330px auto 0 auto ;
+}
+#logo a{
+	display:block ;
+	width:179px ;
+	height:76px ;
+	margin:0 auto ;
+}
+#logo .big{
+	display:block ;
+	width:590px ;
+	height:169px ;
+	margin:18px auto 0 auto ;
+}
+
+#logo h2, p{
+	text-align: center ;
+}
+#logo h2{
+	font-size:40px ;
+	font-weight: 500 ;
+	color:#EADEBF;
+	margin-top:40px ;
+}
+#logo .space_2{
+	font-size:18px ;
+	font-weight:400 ;
+	color:#fff6e1 ;
+	padding:2px ;
+}
+.space{
+	/*background-color: #7F7CBB ;*/
+	background:url(../images/data_image022222.png) no-repeat center center ;
+	height:33px ;
+	width:600px ;
+	margin:0 auto 0 auto ;
+}
+#logo .ul_one ,.ul_two{
+	/*background-color: #7CE885 ;*/
+	width:100% ;
+	height:340px ;
+	text-align:center ;
+	margin:40px 0 0 0; 
+}
+#logo .ul_one .box/*.d1 ,.d2 ,.d3*/{
+	/*background-color: #EFEB94 ;*/
+	display: inline-block ;
+	width:200px ;
+	height:300px ;
+	margin:30px 10px 10px 10px ;
+}
+#logo .ul_two .box/*.d4 ,.d5*/{
+	/*background-color: #EFEB94 ;*/
+	display: inline-block ;
+	width:200px ;
+	height:300px ;
+	margin:30px 10px 10px 10px ;
+}
+.circle_border{
+	margin:auto ;
+	height:150px ;
+	width:150px ;
+	border-radius:50% ;
+	border:3px solid #bd9e5e ;
+}
+.d1{
+	background:#000 url(../images/props-gm-d809a37a76ce4a74dea5a2fdd415e6cc.png) no-repeat center center ;
+}
+.d2{
+	background:#000 url(../images/props-gm-d809a37a76ce4a74dea5a2fdd415e6cc.png) no-repeat center center ;
+}
+.d3{
+	background:#000 url(../images/props-bm-954713bbcd462ceb02b7a115bef6dde2.png) no-repeat center center ;
+}
+.d4{
+	background:#000 url(../images/props-gm-d809a37a76ce4a74dea5a2fdd415e6cc.png) no-repeat center center ;
+}
+.d5{
+	background:#000 url(../images/props-bm-954713bbcd462ceb02b7a115bef6dde2.png) no-repeat center center ;
+}
+.btn_blue{
+	border:2px solid ;             /* #09ffff*/
+	width:120px ;
+	height:30px ;
+	margin:10px auto 0 auto ;
+	border-image: linear-gradient(#09ffff,#137475) 1;
+}
+#logo .btn_text{
+	color:#91b0b4 ;
+	text-align:center ;
+	line-height:30px ;
+	font-size:18px ;
+	font-weight:500 ;
+}
+#logo .text_plus{
+	/*background-color:rgba(211,167,40,.7) ;*/
+	width:200px ;
+	height:28px ;
+	text-align:center ;
+	line-height:28px ;
+	padding-top:20px ;
+	/*border-bottom:1px solid #72542a ;*/              /*漸層底線*/
+}
+#logo .text_plus p{	
+	color:#fff6e1 ;
+	font-size:18px ;
+	font-weight:400 ;
+}
+#logo .box h3{
+	width:93px ;
+	height:96px ;
+	color:#d3c7a9 ;
+	font-size:30px ;
+	font-weight:700 ;
+	text-align:center ;
+	line-height:96px ;
+	margin-top:-50px ;
+	position:absolute ;
+	z-index:2 ;
+}
+#logo .box h3 span{
+	font-weight:700 ;
+	font-size:60px ;
+}
+#logo .box h3, span, p{
+	text-shadow:2px 2px #000000 ;
+}
+/*---------article2--img_line--------------------------------------*/
+#line_01{
+	background-color:rgba(0,0,0,.7) ;
+	width:100% ;	
+	max-height:1920px ;
+	height:324px ;
+	margin:86px auto 0 auto ;
+}
+
+.line_img1{
+	background:url(../images/imagesdata_image_.png) no-repeat center 0 ;
+	width:100% ;
+	max-width:1920px ;
+	height:36px ;
+}
+.seemore{
+	/*background-color:rgba(90,109,220,1.00) ;*/
+	margin:0 auto ;
+	width:980px ;
+	height:141px ;
+}
+.seemore h2{
+	text-align:center ;
+	color:#EADEBF;
+	font-size:40px ;
+	font-weight:500 ;
+	margin-top:45px ;
+}
+.line_img2{
+	background:url(../images/data_image022222.png) no-repeat 0 0 ;
+	width:449px ;
+	height:33px ;
+	margin:10px auto ;
+}
+.btn_seemore{	
+	width:120px ;
+	height:30px ;
+	margin:26px auto 0 auto ;
+	border:2px solid ;                             /* #987630*/
+	border-image: linear-gradient(0deg,#6b5024,#987630,#987630,#b88d35,#c8aa6e) 1;
+}
+.btn_seemore:hover{
+	border-image: linear-gradient(#09ffff,#137475) 1;
+}
+
+.btn_seemore a{
+	font-size:18px ;
+	font-weight:400 ;
+	display:block ;
+	line-height:30px ;
+	color:#EADEBF ;
+	text-align:center ;
+}
+.btn_seemore a:hover{
+	color:#91b0b4 ;
+}
+/*--------------school------------------------------------------------------------*/
+
+#school{
+	background:url(../images/bg1-bd5fa0284f2529c9fe10ed8a7b1998e7.jpg) no-repeat 0 0 ;
+	width:100% ;
+	max-width:1920px ;
+	height:1000px ;
+	margin:0 auto ;
+}
+#school_box{
+	background:url(../images/props-gl-237a09b1f525f0b8e464aecc8af33495.png) no-repeat center center ;
+	display:block ;
+	/*background-color:rgba(236,160,162,1.00);*/
+	width:980px ;
+	height:702px ;
+	margin:0 auto ;
+	padding-top:70px ;
+}
+.sc_box01{
+	width:980px ;
+	height:618px ;
+	margin:0 auto ;
+}
+#school_box .sc_box01 h2{
+	text-align:center ;
+	color:#EADEBF ;
+}
+#school_box .sc_box01 p{
+	font-size:18px ;
+	color:#EADEBF ;
+	font-weight:400 ;
+}
+#school_box .sc_box01 h3{
+	text-align:center ;
+	margin-top:380px ;
+	font-size:24px ;
+	color:#cbac62 ;
+	font-weight:700 ;
+}
+#school_box .btn_test{
+	width:120px ;
+	height:30px ;
+	border:2px solid ;
+	margin:0 auto ;	
+	border-image: linear-gradient(0deg,#6b5024,#987630,#987630,#b88d35,#c8aa6e) 1;
+}
+#school_box .btn_test a{
+	display:block ;
+	text-align:center ;
+	line-height:30px ;
+	color:#EADEBF ;
+	font-size:18px ;
+	font-weight:400 ;
+}
+/*--------------level-------------------------------------------------------------*/
+
+#level{
+	background:url(../images/bg2-c1acc2d1df1929d919e6ae8e441f64db.jpg) no-repeat 50% 50% ;
+	width:100% ;
+	max-width:1920px ;
+	height:1000px ;
+	margin:0 auto ;
+}
+#level_box{
+	display:block ;
+	/*background-color:rgba(236,160,162,1.00);*/
+	width:980px ;
+	height:850px ;
+	margin:0 auto ;
+	padding-top:85px ;
+}
+.lv_box01{
+	width:980px ;
+	height:125px ;
+	margin:0 auto ;
+}
+#level_box .lv_box01 h2{
+	text-align:center ;
+	color:#EADEBF ;
+}
+#level_box .lv_box01 p{
+	font-size:18px ;
+	color:#EADEBF ;
+	font-weight:400 ;
+}
+#level_box .btn_challenge{
+	width:120px ;
+	height:30px ;
+	border:2px solid #7F7F7F ;
+	margin:20px auto 0 auto;	
+}
+#level_box .btn_challenge a{
+	display:block ;
+	text-align:center ;
+	line-height:30px ;
+	color:#7F7F7F ;
+	font-size:18px ;
+	font-weight:600 ;
+}
+#area_box{
+	/*background-color:rgba(51,51,51,.7); */
+	width:980px ;
+	height:650px ;
+	margin:20px auto 0 auto;
+}
+.area_left{
+	/*background-color:rgba(130,197,208,.3) ;*/
+	width:470px ;
+	height:640px ;
+	float:left ;
+	padding-top:4px ;
+}
+.area_right{
+	/*background-color:rgba(221,128,201,.3) ;*/
+	width:470px ;
+	height:500px ;
+	float:right ;
+	padding-top:95px ;
+}
+.left_box{
+	width:228px ;
+	height:168px ;
+	border:1px solid #66481f ;
+	margin:10px 18px auto auto ;
+}
+#area_box .area h3{
+	font-size:40px ;
+	font-weight:700 ;
+	text-align:center ;
+	color:#d3c7a9 ;
+	padding:5px 0 5px 0;
+}
+#area_box .area p{
+	font-size:18px ;
+	font-weight:400 ;
+	text-align:center ;
+	color:#d3c7a9 ;
+	line-height:28px ;
+}
+#area_box .area span{
+	font-size:18px ;
+	font-weight:400 ;
+	text-align:center ;
+	color:#91b0b4 ;
+}
+.btn_get{
+	border:2px solid #7F7F7F ;
+	width:120px ;
+	height:30px ;
+	margin:2px auto 0 auto ;
+}
+.btn_get a{
+	display: block ;
+	font-size:18px ;
+	font-weight:400 ;
+	text-align:center ;
+	line-height:30px ;
+	color:#7F7F7F ;	
+}
+.right_box{
+	width:228px ;
+	height:168px ;
+	border:1px solid #66481f ;
+	margin:10px auto auto 30px ;
+}
+.left_img_box{
+	width:235px ;
+	height:640px ;
+	/*background-color:rgba(255,133,160,.8) ;*/
+	position:absolute ;
+	z-index:5 ;
+}
+.left_img{
+	/*background-color:rgba(227,192,104,.6) ;*/
+	width:235px ;
+	height:190px ;
+	margin-top:10px ;
+}
+.left_img img{
+	display:block ;
+	margin:auto 0 auto auto ;
+}
+.left_img2{
+	margin-top:-6px ;
+}
+.left_img3{
+	margin-top:-5px ;
+}
+.right_img_box{
+	width:225px ;
+	height:500px ;
+	/*background-color:rgba(255,133,179,.3) ;*/
+	float:right ;
+}
+.right_img{
+	/*background-color:rgba(255,188,93,.6) ;*/
+	width:235px ;
+	height:190px ;
+	margin-top:10px ;
+}
+.right_img1{
+	margin-top:50px ;
+}
+.right_img2{
+	margin-top:-35px ;
+}
+/*---------------rune-------------------------------------------------------------*/
+
+#rune{
+	background:url(../images/bg3-b917251688a7f70451f727d5a751928b.jpg) repeat 0 0 ;	
+	width:100% ;
+	max-width:1920px ;
+	height:1168px ;
+	margin:0 auto ;
+}
+.rune_box01{
+	width:980px ;
+	height:125px ;
+	margin:85px auto auto auto ;
+}
+#rune_box1 .rune_box01 h2{
+	text-align:center ;
+	color:#EADEBF ;
+}
+#rune_box1 .rune_box01 p{
+	font-size:18px ;
+	color:#EADEBF ;
+	font-weight:400 ;
+}
+.rune_box01 .text_margin{
+	width:980px ;
+	height:28px ;
+	margin-top:32px ;
+}
+#rune_box2{
+	background-color:rgba(0,0,0,.7) ;
+	width:980px ;
+	height:550px ;
+	margin:100px auto auto auto ;
+	border:1px solid #73632f ;
+}
+.rune_img_box{
+	float:left ;
+	/*background-color:rgba(244,139,181,.3) ;*/
+	width:196px ;
+	height:550px ;
+}
+.rune_img_box01{
+	background:url(../images/lines.png) no-repeat 0 0, url(../images/glow-p.png) no-repeat center center ;
+}
+.rune_img_box02{
+	background:url(../images/lines.png) no-repeat 0 0,url(../images/glow-d.png) no-repeat center center ;
+}
+.rune_img_box03{
+	background:url(../images/lines.png) no-repeat 0 0,url(../images/glow-s.png) no-repeat center center ;
+}
+.rune_img_box04{
+	background:url(../images/lines.png) no-repeat 0 0,url(../images/glow-r.png) no-repeat center center ;
+}
+.rune_img_box05{
+	background:url(../images/lines.png) no-repeat 0 0,url(../images/glow-i.png) no-repeat center center ;
+}
+.rune_img_circle{
+	/*background-color:rgba(141,248,143,.3) ;*/
+	background:url(../images/ring.png) ;
+	margin:40px auto 46px auto ;
+	width:196px ;
+	height:246px ;
+	color:rgba(255,255,255,.4) ;
+}
+
+.rune_img_circle01:hover{
+	background:url(../images/vfx-p.png) no-repeat 0 0;
+}
+.rune_img_circle02:hover{
+	background:url(../images/vfx-d.png) no-repeat 0 0;
+}
+.rune_img_circle03:hover{
+	background:url(../images/vfx-s.png) no-repeat 0 0;
+}
+.rune_img_circle04:hover{
+	background:url(../images/vfx-r.png) no-repeat 0 0;
+}
+.rune_img_circle05:hover{
+	background:url(../images/vfx-i.png) no-repeat 0 0;
+}
+.black_circle{
+	display: block ;
+	/*margin:auto auto auto -5px;*/
+	position: absolute ;
+}
+.center_pic{
+	display: block ;
+	/*margin:auto auto auto -5px ;*/
+	position: absolute ;
+	z-index:10 ;
+}
+.circle_bottom_test{
+	width:196px ;
+	height:37px ;
+	padding-top:195px; 
+	padding-left:7px ;
+	text-align: center ;
+}
+.circle_bottom_test h5{
+	font-size:16px ;
+	font-weight:400 ;
+	color:#EADEBF ;
+}
+.circle_bottom_test h6{
+	font-size:12px ;
+	font-weight:400 ;
+	color:#727271 ;
+}
+.rune_img_pic{
+	/*background-color: rgba(255,239,159,.4) ;*/
+	width:186px ;
+	height:134px ;									
+	margin:0 auto ;
+	padding-left:12px ;
+	position:absolute ;/*-----------ddddddd--------------------*/
+	z-index:20 ;
+}
+.rune_img_pic img{
+	display:block ;
+	margin:0 auto ;
+	max-height:67px ;
+	max-width:67px ;
+	opacity:.4 ;
+}
+.rune_img_pic img:hover{
+	opacity:1 ;
+}
+.pic01{
+	/*background-color: rgba(255,172,187,.2) ;*/
+	width:93px ;
+	height:67px ;
+	float:left ;
+}
+.pic02{
+	/*background-color: rgba(193,159,255,.2) ;*/
+	width:93px ;
+	height:67px ;
+	float:right ;
+}
+.pic03{
+	/*background-color:rgba(137,255,103,.2) ;	*/
+	width:186px ;
+	height:67px ;
+	clear:both ;
+}
+.rune_img_test{
+	margin:40px auto auto auto ;
+	width:196px ;
+	height:14px ;
+}
+.rune_img_test p{
+	color:#727271 ;
+	font-size:11px ;								
+	font-weight:400 ;
+	margin-top:220px ;/*------------dddddd--------------------*/
+}
+.btn_pk_sure{
+	/*background-color:rgba(255,116,118,1.00) ;*/
+	width:606px ;
+	height:30px ;
+	margin:60px auto auto auto ;
+}
+.btn_pk{
+	width:120px ;
+	height:30px ;
+	border:2px solid #7F7F7F ;
+	float:left ;
+}
+.btn_sure{
+	width:120px ;
+	height:30px ;
+	border:2px solid #7F7F7F ;
+	float:right ;
+}
+.btn_pk_sure a{
+	display:block ;
+	color:#7F7F7F ;
+	font-size:18px ;
+	font-weight:400 ;
+	text-align:center ;
+	line-height:30px ;
+}
+#rune_box2 h6, #rune_box2 p{
+	color:rgba(255,255,255,.4) ;	
+}
+#rune_box2 h6:hover, #rune_box2 p:hover{
+	color:rgba(255,255,255,1.00) ;
+}
+
+/*---------------footer-----------------------------------------------------------*/
+footer{
+	background-color:#000 ;
+	width:100% ;
+	height:172px ;
+	max-width:1920px ;
+}
+.page_bottom{
+	background:url(../images/cut.PNG) no-repeat 0 0 ;
+	width:1287px ;
+	height:103px ;
+	margin:10px auto ;
+}
+.rune_img_box01 .aaa{
+	margin-top:-40px ;
+	margin-left:-1px ;
+	position:absolute ;
+	z-index:15 ;
+	opacity:0 ;
+}
+.rune_img_box01 .aaa:hover{
+	opacity:1 ;
+}
+/*-------------*/
